@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Arial_8.spritefont</Source>
+      <Name>Fonts\Arial_8</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
+      <Time>2012-11-13T15:37:32.6715258-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Georgia_16.spritefont</Source>
+      <Name>Fonts\Georgia_16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
+      <Time>2012-11-13T15:38:01.6391826-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Motorwerk_16.spritefont</Source>
+      <Name>Fonts\Motorwerk_16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
+      <Time>2014-05-10T18:17:24.8921925-07:00</Time>
+    </Item>
+    <Item>
+      <Source>GFX\menuscreen.png</Source>
+      <Name>GFX\menuscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
+      <Time>2015-01-23T18:02:40.7357527-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Sound.wav</Source>
+      <Name>Sounds\Sound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb</Output>
+      <Time>2015-01-24T21:12:51.6204118-08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{F61C6F0B-4657-4368-9979-C54F847CF89F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
+      <LoggerRootDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
+      <IntermediateDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-04-10T16:51:15.7365554-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

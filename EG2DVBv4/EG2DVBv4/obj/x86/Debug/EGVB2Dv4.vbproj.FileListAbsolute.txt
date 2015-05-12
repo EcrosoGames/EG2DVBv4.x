@@ -1,0 +1,24 @@
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.1.exe
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.1.pdb
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.1.xml
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.1.exe
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.1.xml
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.1.pdb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.2.exe
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.2.pdb
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\EGVB2Dv4.2.xml
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.exe
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.xml
+K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.pdb

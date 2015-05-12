@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EGVB2Dv4", "EG2DVBv4\EG2DVBv4\EGVB2Dv4.vbproj", "{A7A5BF34-2407-423A-8659-DE3C8D569320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGVB2Dv4Content", "EG2DVBv4\EG2DVBv4Content\EGVB2Dv4Content.contentproj", "{F61C6F0B-4657-4368-9979-C54F847CF89F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A5BF34-2407-423A-8659-DE3C8D569320}.Debug|x86.ActiveCfg = Debug|x86
+		{A7A5BF34-2407-423A-8659-DE3C8D569320}.Debug|x86.Build.0 = Debug|x86
+		{A7A5BF34-2407-423A-8659-DE3C8D569320}.Release|x86.ActiveCfg = Release|x86
+		{A7A5BF34-2407-423A-8659-DE3C8D569320}.Release|x86.Build.0 = Release|x86
+		{F61C6F0B-4657-4368-9979-C54F847CF89F}.Debug|x86.ActiveCfg = Debug|x86
+		{F61C6F0B-4657-4368-9979-C54F847CF89F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

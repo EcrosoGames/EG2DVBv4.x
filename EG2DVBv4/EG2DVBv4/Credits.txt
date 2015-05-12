@@ -1,0 +1,8 @@
+﻿This engine was created by: Brandon Ecroso @ Ecroso Games
+You may use this engine to your liking, however it is much appreciated that you give credit.
+
+Several parts of this engine were originally designed by Aardaerimus D'Aritonyss, and he has been given credit here and in the source itself.
+
+For contact of the Developer of this engine please send an email to: ecrosogames@gmail.com
+
+To get an executable version of the game for others to play go to: "EG2DVBv4\EG2DVBv4\EG2DVBv4\bin\x86\Debug\<NAMEOFGAME>.exe" and don't forget to grab the content folder, otherwise XNA will bitch at you.

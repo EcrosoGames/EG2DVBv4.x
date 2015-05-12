@@ -1,0 +1,2 @@
+J:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EG2DVBv4Content.contentprojResolveAssemblyReference.cache
+K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EG2DVBv4Content.contentprojResolveAssemblyReference.cache
