@@ -45,7 +45,7 @@
                 Case 0
                     ScreenManager.UnloadScreen("TitleScreen")
                     ScreenManager.UnloadScreen("MainMenu")
-                    ' ScreenManager.AddScreen(New Game())
+                    ScreenManager.AddScreen(New NOTgame())
                 Case 1
                     Vsync.Switch()
                     'ScreenManager.UnloadScreen("TitleScreen")

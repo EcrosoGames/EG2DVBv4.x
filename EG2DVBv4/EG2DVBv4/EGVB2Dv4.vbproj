@@ -95,6 +95,7 @@
     <Compile Include="Add On Stuff\TextHandler.vb" />
     <Compile Include="Add On Stuff\Vsync.vb" />
     <Compile Include="Blanks\Default Screen.vb" />
+    <Compile Include="Debug\NOTgame.vb" />
     <Compile Include="Globals\Fonts.vb" />
     <Compile Include="Globals\Globals.vb" />
     <Compile Include="Globals\Input.vb" />
@@ -166,6 +167,9 @@
       <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game Files\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

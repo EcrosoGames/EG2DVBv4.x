@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
       <Time>2012-11-13T15:37:32.6715258-08:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
       <Time>2012-11-13T15:38:01.6391826-08:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
       <Time>2014-05-10T18:17:24.8921925-07:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
       <Time>2015-01-23T18:02:40.7357527-08:00</Time>
     </Item>
     <Item>
@@ -43,8 +43,17 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb</Output>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb</Output>
       <Time>2015-01-24T21:12:51.6204118-08:00</Time>
+    </Item>
+    <Item>
+      <Source>GFX\PxFont.png</Source>
+      <Name>GFX\PxFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
+      <Time>2015-07-16T00:17:50.9938328-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -53,10 +62,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
-      <LoggerRootDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
-      <IntermediateDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
+      <LoggerRootDirectory>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
+      <IntermediateDirectory>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -85,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-04-10T16:51:15.7365554-07:00</Value>
+        <Value>2015-06-20T01:27:53.2696381-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

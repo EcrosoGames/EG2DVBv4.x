@@ -1,2 +1,4 @@
 K:\games\Ludum Dare\engine\EG2DVBv4\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
 K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
+L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
+L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
