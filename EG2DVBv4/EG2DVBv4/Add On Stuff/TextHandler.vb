@@ -9,7 +9,7 @@
     End Sub
     Public Shared Sub PosText(ByVal x As Integer, ByVal y As Integer)
         REC = New Rectangle(x, y, 0, 0)
-        REC.Width = 5 * FontSize * (TXT.Length) + 2 + TXT.Length
+        REC.Width = 5 * FontSize * (TXT.Length + 1) + 2 + TXT.Length
         REC.Height = 7 * FontSize + 2
     End Sub
     Public Shared Sub ReadText(ByVal t As Boolean, ByVal sp As Integer)
@@ -37,6 +37,10 @@
                     End If
                 End If
             End If
+            aminate += 1
+            If aminate = 20 Then
+                aminate = 0
+            End If
         End If
     End Sub
     Public Shared Speed As Integer = 1
@@ -45,6 +49,7 @@
     Public Shared Read As Boolean = False
     Public Shared FontSize As Integer = 10
     Public Shared FontType As String = "Px5"
+    Dim aminate As Integer = 0
     Public Overrides Sub Draw()
         Globals.SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.Default, RasterizerState.CullNone)
         If Read Then
@@ -56,6 +61,11 @@
                     Globals.SpriteBatch.Draw(Fonts.PXfont, New Rectangle(q * FontSize, TextHandler.REC.Y, FontSize, FontSize), New Rectangle(0, 0, 0, 0), Color.Black)
                 End If
             Next
+            If aminate < 11 Then
+                Globals.SpriteBatch.Draw(Fonts.PXfont, New Rectangle(TextHandler.REC.X + BookMark * (5 * FontSize) + BookMark + 1, TextHandler.REC.Y + 1, 5 * FontSize, 7 * FontSize), New Rectangle(48, 1, 5, 7), Color.Black)
+            Else
+                Globals.SpriteBatch.Draw(Fonts.PXfont, New Rectangle(TextHandler.REC.X + BookMark * (5 * FontSize) + BookMark + 1, TextHandler.REC.Y + 1, 5 * FontSize, 7 * FontSize), New Rectangle(54, 1, 5, 7), Color.Black)
+            End If
         End If
         Globals.SpriteBatch.End()
     End Sub
@@ -64,7 +74,34 @@
             Case 32 To 126
                 Return Asc(st) * 6
             Case Else
-
+                Select Case st
+                    Case "α"
+                        Return 0
+                    Case "β"
+                        Return 6
+                    Case "λ"
+                        Return 12
+                    Case "Δ"
+                        Return 18
+                    Case "˄"
+                        Return 24
+                    Case "˅"
+                        Return 30
+                    Case "˂"
+                        Return 36
+                    Case "˃"
+                        Return 42
+                    Case "♂"
+                        Return 60
+                    Case "♀"
+                        Return 66
+                    Case "Σ"
+                        Return 72
+                    Case "÷"
+                        Return 78
+                    Case "°"
+                        Return 82
+                End Select
         End Select
     End Function
 End Class
