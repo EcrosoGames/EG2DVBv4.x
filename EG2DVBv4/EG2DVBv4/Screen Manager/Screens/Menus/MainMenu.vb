@@ -47,14 +47,13 @@
                     ScreenManager.UnloadScreen("MainMenu")
                     ScreenManager.AddScreen(New NOTgame())
                 Case 1
-                    Vsync.Switch()
-                    'ScreenManager.UnloadScreen("TitleScreen")
-                    'ScreenManager.UnloadScreen("MainMenu")
-                    'ScreenManager.AddScreen(New Options())
+                    ScreenManager.UnloadScreen("TitleScreen")
+                    ScreenManager.UnloadScreen("MainMenu")
+                    ScreenManager.AddScreen(New Options())
                 Case 2
                     ScreenManager.UnloadScreen("TitleScreen")
                     ScreenManager.UnloadScreen("MainMenu")
-                    ' ScreenManager.AddScreen(New Credits())
+                    ScreenManager.AddScreen(New Credits())
                 Case 3
                     End
             End Select

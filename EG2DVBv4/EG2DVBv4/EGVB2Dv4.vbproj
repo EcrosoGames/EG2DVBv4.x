@@ -107,8 +107,10 @@
     <Compile Include="Globals\Textures.vb" />
     <Compile Include="Screen Manager\BaseScreen.vb" />
     <Compile Include="Screen Manager\ScreenManager.vb" />
+    <Compile Include="Screen Manager\Screens\Credits.vb" />
     <Compile Include="Screen Manager\Screens\Debug.vb" />
     <Compile Include="Screen Manager\Screens\Menus\MainMenu.vb" />
+    <Compile Include="Screen Manager\Screens\Options.vb" />
     <Compile Include="Screen Manager\Screens\TestScreen.vb" />
     <Compile Include="Screen Manager\Screens\TitleScreen.vb" />
   </ItemGroup>
