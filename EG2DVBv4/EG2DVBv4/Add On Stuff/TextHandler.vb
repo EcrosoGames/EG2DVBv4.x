@@ -66,6 +66,7 @@
             Else
                 Globals.SpriteBatch.Draw(Fonts.PXfont, New Rectangle(TextHandler.REC.X + BookMark * (5 * FontSize) + BookMark + 1, TextHandler.REC.Y + 1, 5 * FontSize, 7 * FontSize), New Rectangle(54, 1, 5, 7), Color.Black)
             End If
+            'Want a custom border? figure it out!
         End If
         Globals.SpriteBatch.End()
     End Sub
