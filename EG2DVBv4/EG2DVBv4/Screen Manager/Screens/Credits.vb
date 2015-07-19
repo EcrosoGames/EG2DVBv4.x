@@ -17,6 +17,7 @@
         AddEntry("Engine Based off of Aardaerimus D'Aritonyss' design", False)
         AddEntry("Textures By: Brandon Ecroso", False)
         AddEntry("Language: VB.NET (XNA 4.0 framework)", False)
+        AddEntry("Version: EG2DVB ver. " & Engine_Version.Vers, False)
         AddEntry("Game by: Author", False)
     End Sub
 
