@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add On Stuff\GameVersion.vb" />
+    <Compile Include="Add On Stuff\MusicKeeper.vb" />
     <Compile Include="Add On Stuff\Randomz.vb" />
     <Compile Include="Add On Stuff\Soundz.vb" />
     <Compile Include="Add On Stuff\TextHandler.vb" />

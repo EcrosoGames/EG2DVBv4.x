@@ -8,6 +8,10 @@
         State = ScreenState.Active
         Music = Soundz.Sound.LoadSound("Sound")
         ScreenManager.AddScreen(New TextHandler)
+        Music.Play(1, 0, 0)
+        MusicKeeper.Timepassed = 0
+        MusicKeeper.Done = False
+        MusicKeeper.Timelimit = Music.Duration.Seconds
     End Sub
     Public Overrides Sub HandleInput()
         If Input.KeyPressed(Keys.T) Then
@@ -27,6 +31,12 @@
 
         End If
         Antitime = AniTime * 2
+        MusicKeeper.Keeptrack()
+        If MusicKeeper.Done Then
+            MusicKeeper.Timepassed = 0
+            MusicKeeper.Done = False
+            Music.Play(1, 0, 0)
+        End If
     End Sub
     Public Overrides Sub Draw()
         Globals.SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.Default, RasterizerState.CullNone)
