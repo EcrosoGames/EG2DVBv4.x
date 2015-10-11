@@ -16,7 +16,7 @@
         AniTime += Globals.GameTime.ElapsedGameTime.TotalMilliseconds
         If AniTime > 255 Then
             AniTime = 0
-
+            'Please use this so that when people turn off vsync the whole thing doesn't go to hell
         End If
         Antitime = AniTime * 2
     End Sub

@@ -26,7 +26,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
-      <Time>2014-05-10T18:17:24.8921925-07:00</Time>
+      <Time>2015-10-10T20:18:57.6125163-07:00</Time>
     </Item>
     <Item>
       <Source>GFX\menuscreen.png</Source>
@@ -38,6 +38,15 @@
       <Time>2015-01-23T18:02:40.7357527-08:00</Time>
     </Item>
     <Item>
+      <Source>GFX\PxFont.png</Source>
+      <Name>GFX\PxFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
+      <Time>2015-07-16T00:17:50.9938328-07:00</Time>
+    </Item>
+    <Item>
       <Source>Sounds\Sound.wav</Source>
       <Name>Sounds\Sound</Name>
       <Importer>WavImporter</Importer>
@@ -47,13 +56,13 @@
       <Time>2015-01-24T21:12:51.6204118-08:00</Time>
     </Item>
     <Item>
-      <Source>GFX\PxFont.png</Source>
-      <Name>GFX\PxFont</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Fonts\Symbol_16.spritefont</Source>
+      <Name>Fonts\Symbol_16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
-      <Time>2015-07-16T00:17:50.9938328-07:00</Time>
+      <Output>L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Symbol_16.xnb</Output>
+      <Time>2015-10-10T19:54:40.5747714-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -93,8 +102,8 @@
         <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-06-20T01:27:53.2696381-07:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-09-19T19:27:31.4196549-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
