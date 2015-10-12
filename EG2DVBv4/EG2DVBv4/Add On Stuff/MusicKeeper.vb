@@ -1,5 +1,4 @@
 ﻿Public Class MusicKeeper
-    Inherits BaseScreen
     Public Shared mooseke As SoundEffectInstance
     Public Shared Sub Plai(ByVal musik As SoundEffect, Optional ByVal looped As Boolean = True, Optional ByVal pitch As Single = 0, Optional ByVal vol As Single = 1)
         mooseke = musik.CreateInstance()
