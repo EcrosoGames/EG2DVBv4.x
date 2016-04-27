@@ -105,7 +105,6 @@
     <Compile Include="Add On Stuff\Vsync.vb" />
     <Compile Include="Blanks\Default Screen.vb" />
     <Compile Include="Debug\Engine Version.vb" />
-    <Compile Include="Debug\NOTgame.vb" />
     <Compile Include="Globals\Fonts.vb" />
     <Compile Include="Globals\Globals.vb" />
     <Compile Include="Globals\Input.vb" />

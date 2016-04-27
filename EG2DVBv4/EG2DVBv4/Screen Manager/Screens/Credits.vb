@@ -15,10 +15,13 @@
         AddEntry("Back To Main", True)
         AddEntry("Engine By: Brandon Ecroso", False)
         AddEntry("Engine Based off of Aardaerimus D'Aritonyss' design", False)
-        AddEntry("Textures By: Brandon Ecroso", False)
+        AddEntry("Textures By: " & GameVersion.Artist, False)
         AddEntry("Language: VB.NET (XNA 4.0 framework)", False)
         AddEntry("Version: EG2DVB ver. " & Engine_Version.Vers, False)
-        AddEntry("Game by: Author", False)
+        AddEntry("Game by: " & GameVersion.Author, False)
+        'AddEntry("Code by: " & GameVersion.Programmer, False)
+        'AddEntry("Music by: " & GameVersion.Musician, False)
+        'AddEntry("Release Date: " & GameVersion.ReleaseDate, False)
     End Sub
 
     Public Sub AddEntry(text As String, enabled As Boolean)

@@ -45,7 +45,7 @@
                 Case 0
                     ScreenManager.UnloadScreen("TitleScreen")
                     ScreenManager.UnloadScreen("MainMenu")
-                    ScreenManager.AddScreen(New NOTgame())
+                    ScreenManager.AddScreen(New Default_Screen())
                 Case 1
                     ScreenManager.UnloadScreen("TitleScreen")
                     ScreenManager.UnloadScreen("MainMenu")

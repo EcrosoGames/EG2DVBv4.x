@@ -1,12 +1,10 @@
 ﻿Public Class Default_Screen
     Inherits BaseScreen
-    Private Music As SoundEffect
     Private AniTime As Double = 0
     Dim Antitime As Integer = 0
     Public Sub New()
-        Name = "MainMenu"
+        Name = "Screen"
         State = ScreenState.Active
-        Music = Soundz.Sound.LoadSound("Sound")
     End Sub
     Public Overrides Sub HandleInput()
 
