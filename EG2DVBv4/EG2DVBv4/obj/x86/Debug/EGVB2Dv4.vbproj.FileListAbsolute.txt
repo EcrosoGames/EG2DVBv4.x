@@ -62,3 +62,14 @@ O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86
 O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.exe
 O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.xml
 O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.2.pdb
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.dll
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.xml
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\EGVB2Dv4.vbprojResolveAssemblyReference.cache

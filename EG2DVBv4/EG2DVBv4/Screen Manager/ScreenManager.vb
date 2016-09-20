@@ -2,6 +2,7 @@
     Active
     ShutDown
     Hidden
+    Special
 End Enum
 Public Class ScreenManager
     Private Shared Screens As New List(Of BaseScreen)
@@ -40,15 +41,24 @@ Public Class ScreenManager
             Next
         End If
         For Each FoundScreen As BaseScreen In Screens
-            If Globals.WindowFocused Then
+            If Globals.WindowFocused And FoundScreen.State = ScreenState.Active Then
+                FoundScreen.HandleInput()
+            ElseIf Globals.WindowFocused And FoundScreen.State = ScreenState.Special Then
                 FoundScreen.HandleInput()
             End If
-            FoundScreen.Update()
+            If FoundScreen.State = ScreenState.Active Or FoundScreen.State = ScreenState.Special Then
+                FoundScreen.Update()
+            End If
         Next
     End Sub
     Public Sub Draw()
         For Each FoundScreen As BaseScreen In Screens
-            If FoundScreen.State = ScreenState.Active Then
+            If Not FoundScreen.Name = "Debug" And FoundScreen.State = ScreenState.Active Then
+                FoundScreen.Draw()
+            End If
+        Next
+        For Each FoundScreen As BaseScreen In Screens
+            If FoundScreen.Name = "Debug" And FoundScreen.State = ScreenState.Active Then
                 FoundScreen.Draw()
             End If
         Next
@@ -62,6 +72,47 @@ Public Class ScreenManager
                 FoundScreen.Unload()
                 Exit For
             End If
+        Next
+    End Sub
+    Public Shared Sub PauseAll(Optional exempt As String = "HELP")
+        For Each FoundScreen As BaseScreen In Screens
+            If Not FoundScreen.Name = "Debug" And Globals.WindowFocused And FoundScreen.State = ScreenState.Active And FoundScreen.Name <> exempt Then
+                FoundScreen.State = ScreenState.Hidden
+            End If
+            FoundScreen.Update()
+        Next
+    End Sub
+    Public Shared Function Find(Optional Def As String = "Naming") As Boolean
+        For Each FoundScreen As BaseScreen In Screens
+            If FoundScreen.Name = Def Then
+                Return True
+            Else
+                Return False
+            End If
+        Next
+    End Function
+    Public Shared Sub KillAll(Optional exempt As String = "Game Over")
+        For Each FoundScreen As BaseScreen In Screens
+            If Not FoundScreen.Name = "Debug" And Globals.WindowFocused And FoundScreen.State = ScreenState.Active And FoundScreen.Name <> exempt Then
+                FoundScreen.Unload()
+            End If
+            FoundScreen.Update()
+        Next
+    End Sub
+    Public Shared Sub ResumeAll()
+        If Screens.Count > 0 Then
+            For i = Screens.Count - 1 To 0 Step -1
+                If Screens(i).GrabFocus Then
+                    Screens(i).Focused = True
+                    Exit For
+                End If
+            Next
+        End If
+        For Each FoundScreen As BaseScreen In Screens
+            If Globals.WindowFocused And FoundScreen.State = ScreenState.Hidden Then
+                FoundScreen.State = ScreenState.Active
+            End If
+            FoundScreen.Update()
         Next
     End Sub
 End Class
