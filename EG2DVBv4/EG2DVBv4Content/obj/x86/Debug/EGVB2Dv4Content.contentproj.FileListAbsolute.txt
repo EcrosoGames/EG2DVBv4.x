@@ -3,3 +3,4 @@ K:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EG
 L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
 L:\source_codes\2015\EG2DVBv4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
 O:\source_codes\2016\V4.2\Engine\EG2DVBv4.x\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache
+F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\obj\x86\Debug\EGVB2Dv4Content.contentprojResolveAssemblyReference.cache

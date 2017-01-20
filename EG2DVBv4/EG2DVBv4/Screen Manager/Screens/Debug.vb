@@ -10,14 +10,14 @@
     Private KeyDown As Boolean = False
     Public Sub New()
         Name = "Debug"
-        State = ScreenState.Hidden
+        State = ScreenState.Special
         GrabFocus = False
     End Sub
     Public Overrides Sub HandleInput()
         If Input.KeyPressed(Keys.F1) Then
             If State = ScreenState.Active Then
-                State = ScreenState.Hidden
-            ElseIf State = ScreenState.Hidden Then
+                State = ScreenState.Special
+            ElseIf State = ScreenState.Special Then
                 State = ScreenState.Active
             End If
         End If

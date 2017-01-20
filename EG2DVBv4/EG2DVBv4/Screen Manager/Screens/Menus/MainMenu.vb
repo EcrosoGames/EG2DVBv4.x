@@ -12,7 +12,6 @@
         AddEntry("Options", True)
         AddEntry("Credits", True)
         AddEntry("Quit Game", True)
-        Music = Soundz.Sound.LoadSound("Sound")
     End Sub
     Public Sub AddEntry(text As String, enabled As Boolean)
         Dim Entry As MenuEntry
