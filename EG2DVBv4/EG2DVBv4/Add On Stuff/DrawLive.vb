@@ -27,4 +27,15 @@
         Scren.Dispose()
         livedraw.Dispose()
     End Function
+    Public Shared Function Transparancy(ByVal td2 As Texture2D, ByVal col As Color) As Texture2D
+        Dim colo(td2.Width * td2.Height - 1) As Color
+        td2.GetData(Of Color)(colo)
+        For q As Integer = 0 To colo.Length - 1
+            If colo(q) = col Then
+                colo(q) = Nothing
+            End If
+        Next
+        td2.SetData(Of Color)(colo)
+        Return td2
+    End Function
 End Class
