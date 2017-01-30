@@ -11,9 +11,9 @@
         livedraw.Draw(tex, New Rectangle(0, 0, tex.Width, tex.Height), Color.White)
         livedraw.End()
     End Sub
-    Public Shared Sub Modify(ByVal tex As Texture2D, ByVal DrawTo As Rectangle, ByVal col As Color)
+    Public Shared Sub Modify(ByVal tex As Texture2D, ByVal DrawTo As Rectangle, ByVal DrawFrom As Rectangle, ByVal col As Color)
         livedraw.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.Default, RasterizerState.CullNone)
-        livedraw.Draw(tex, DrawTo, col)
+        livedraw.Draw(tex, DrawTo, DrawFrom, col)
         livedraw.End()
     End Sub
     Public Shared PermGFX As Texture2D
