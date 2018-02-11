@@ -1,6 +1,6 @@
 ﻿Public Class Debug
     Inherits BaseScreen
-    Public Screens As String = ""
+    Public Shared Screens As String = ""
     Public FocusScreen As String = ""
     Private fps As Integer
     Private fpsCounter As Integer
@@ -10,15 +10,24 @@
     Private KeyDown As Boolean = False
     Public Sub New()
         Name = "Debug"
-        State = ScreenState.Special
+        State = ScreenState.Debug
         GrabFocus = False
+        Permission = 5
     End Sub
     Public Overrides Sub HandleInput()
         If Input.KeyPressed(Keys.F1) Then
-            If State = ScreenState.Active Then
-                State = ScreenState.Special
-            ElseIf State = ScreenState.Special Then
-                State = ScreenState.Active
+            If Globals.Debugging Then
+                Globals.Debugging = False
+                Debug_Console.Close()
+            Else
+                Globals.Debugging = True
+            End If
+        End If
+        If Globals.Debugging Then
+            If Input.KeyPressed(Keys.F2) Then
+                Debug_Console.Show()
+                Debug_Console.GameInput = False
+                Debug_Console.chkInput.Checked = False
             End If
         End If
     End Sub

@@ -4,7 +4,6 @@
     Private MenuSelect As Integer = 0
     Private MenuSize As New Vector2(250, 160)
     Private MenuPos As New Vector2(120, 80)
-    Private Music As SoundEffect
     Public Sub New()
         Name = "MainMenu"
         State = ScreenState.Active
@@ -42,23 +41,17 @@
         If Input.KeyPressed(Keys.Enter) Then
             Select Case MenuSelect
                 Case 0
-                    ScreenManager.UnloadScreen("TitleScreen")
-                    ScreenManager.UnloadScreen("MainMenu")
+                    ScreenManager.StateChange({ScreenManager.Find("TitleScreen"), ScreenManager.Find("MainMenu")}, State.Shutdown)
                     ScreenManager.AddScreen(New Default_Screen())
                 Case 1
-                    ScreenManager.UnloadScreen("TitleScreen")
-                    ScreenManager.UnloadScreen("MainMenu")
+                    ScreenManager.StateChange({ScreenManager.Find("TitleScreen"), ScreenManager.Find("MainMenu")}, State.Shutdown)
                     ScreenManager.AddScreen(New Options())
                 Case 2
-                    ScreenManager.UnloadScreen("TitleScreen")
-                    ScreenManager.UnloadScreen("MainMenu")
+                    ScreenManager.StateChange({ScreenManager.Find("TitleScreen"), ScreenManager.Find("MainMenu")}, State.Shutdown)
                     ScreenManager.AddScreen(New Credits())
                 Case 3
                     End
             End Select
-        End If
-        If Input.KeyPressed(Keys.T) Then
-            Music.Play(1.0F, -0.15F, 0.0F)
         End If
     End Sub
     Public Overrides Sub Draw()

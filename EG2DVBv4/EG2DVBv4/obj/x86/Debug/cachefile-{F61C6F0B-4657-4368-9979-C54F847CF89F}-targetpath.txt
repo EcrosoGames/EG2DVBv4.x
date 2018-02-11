@@ -4,4 +4,3 @@ Content\Fonts\Motorwerk_16.xnb
 Content\Fonts\Symbol_16.xnb
 Content\GFX\menuscreen.xnb
 Content\GFX\PxFont.xnb
-Content\Sounds\Sound.xnb

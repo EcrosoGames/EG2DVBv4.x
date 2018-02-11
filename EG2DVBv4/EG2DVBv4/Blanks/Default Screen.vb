@@ -3,7 +3,7 @@
     Private AniTime As Double = 0
     Dim Antitime As Integer = 0
     Public Sub New()
-        Name = "Screen"
+        Name = "DefaultScreen"
         State = ScreenState.Active
     End Sub
     Public Overrides Sub HandleInput()

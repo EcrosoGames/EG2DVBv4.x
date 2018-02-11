@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
-      <Time>2017-01-19T22:19:26.9010273-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
+      <Time>2018-01-28T22:21:53.2601021-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Georgia_16.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
-      <Time>2017-01-19T22:19:26.9010273-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
+      <Time>2018-01-28T22:21:53.2606023-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Motorwerk_16.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
-      <Time>2017-01-19T22:19:26.9015272-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
+      <Time>2018-01-28T22:21:53.2606023-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Symbol_16.spritefont</Source>
@@ -34,8 +34,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Symbol_16.xnb</Output>
-      <Time>2017-01-19T22:19:26.9025412-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Symbol_16.xnb</Output>
+      <Time>2018-01-28T22:21:53.2611025-08:00</Time>
     </Item>
     <Item>
       <Source>GFX\menuscreen.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
-      <Time>2017-01-19T22:19:26.9035292-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
+      <Time>2018-01-28T22:21:53.2616033-08:00</Time>
     </Item>
     <Item>
       <Source>GFX\PxFont.png</Source>
@@ -52,17 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
-      <Time>2017-01-19T22:19:26.9035292-08:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\Sound.wav</Source>
-      <Name>Sounds\Sound</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Sounds\Sound.xnb</Output>
-      <Time>2017-01-19T22:19:26.9140389-08:00</Time>
+      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
+      <Time>2018-01-28T22:21:53.2611025-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -71,39 +62,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
-      <LoggerRootDirectory>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\source_codes\2017\Engine\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
+      <LoggerRootDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T17:22:30-07:00</Value>
+        <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2017-01-14T21:14:51.6412354-08:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2018-01-16T17:32:12.9074662-08:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

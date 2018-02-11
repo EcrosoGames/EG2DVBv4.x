@@ -97,6 +97,12 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add On Stuff\Debug Console.Designer.vb">
+      <DependentUpon>Debug Console.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add On Stuff\Debug Console.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Add On Stuff\DrawLive.vb" />
     <Compile Include="Add On Stuff\GameVersion.vb" />
     <Compile Include="Add On Stuff\RNG.vb" />
@@ -106,6 +112,7 @@
     <Compile Include="Globals\Fonts.vb" />
     <Compile Include="Globals\Globals.vb" />
     <Compile Include="Globals\Input.vb" />
+    <Compile Include="Globals\Sounds.vb" />
     <Compile Include="Main\Game1.vb" />
     <Compile Include="Main\Program.vb" />
     <Compile Include="Menus\MenuEntry.vb" />
@@ -187,6 +194,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Game Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Add On Stuff\Debug Console.resx">
+      <DependentUpon>Debug Console.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

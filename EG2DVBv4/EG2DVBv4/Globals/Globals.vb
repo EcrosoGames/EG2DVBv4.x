@@ -6,4 +6,5 @@
     Public Shared WindowFocused As Boolean
     Public Shared GameSize As Vector2
     Public Shared BackBuffer As RenderTarget2D
+    Public Shared Debugging As Boolean
 End Class

@@ -39,7 +39,7 @@
         If Input.KeyPressed(Keys.Enter) Then
             Select Case MenuSelect
                 Case 0
-                    ScreenManager.UnloadScreen("Credits")
+                    ScreenManager.RemoveScreen("Credits")
                     ScreenManager.AddScreen(New TitleScreen())
                     ScreenManager.AddScreen(New MainMenu())
             End Select

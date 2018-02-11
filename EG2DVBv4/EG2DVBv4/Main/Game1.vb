@@ -29,12 +29,14 @@ Public Class Game1
         Globals.Graphics.SynchronizeWithVerticalRetrace = True
         Me.IsFixedTimeStep = True
         Globals.Graphics.ApplyChanges()
+        Globals.Debugging = True
     End Sub
     Protected Overrides Sub LoadContent()
         Globals.SpriteBatch = New SpriteBatch(GraphicsDevice)
         Globals.Content = Me.Content
         Fonts.Load()
         Textures.Load()
+        Sounds.Load()
         ScreenManager = New ScreenManager()
         ScreenManager.AddScreen(New TitleScreen)
         ScreenManager.AddScreen(New MainMenu)

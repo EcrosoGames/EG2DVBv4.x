@@ -83,7 +83,7 @@
                     Vsync.Switch()
                     Entries(MenuSelect).Text = "Vsync: " & Vsync.Synced
                 Case 2
-                    ScreenManager.UnloadScreen("Options")
+                    ScreenManager.RemoveScreen("Options")
                     ScreenManager.AddScreen(New TitleScreen())
                     ScreenManager.AddScreen(New MainMenu())
             End Select
