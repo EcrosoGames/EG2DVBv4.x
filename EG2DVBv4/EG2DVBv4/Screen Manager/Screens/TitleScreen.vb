@@ -8,6 +8,9 @@
     End Sub
     Public Overrides Sub HandleInput()
         MyBase.HandleInput()
+        If Input.KeyPressed(Keys.P) Then
+            ScreenManager.BringToFront(Name)
+        End If
     End Sub
     Public Overrides Sub Update()
         'Example of how to control your updates
@@ -24,7 +27,7 @@
         Globals.SpriteBatch.DrawString(Fonts.MotorWerk_16, GameVersion.Name, New Vector2(Globals.GameSize.X / 2.05 - Fonts.MotorWerk_16.MeasureString(GameVersion.Name).X, Globals.GameSize.Y / 4), New Color(Antitime, 0, 0), 0, New Vector2(0, 0), 2.4, SpriteEffects.None, 0)
         Globals.SpriteBatch.End()
     End Sub
-    Public Overrides Sub Unload()
-        MyBase.Unload()
+    Public Overrides Sub remove()
+        MyBase.remove()
     End Sub
 End Class
