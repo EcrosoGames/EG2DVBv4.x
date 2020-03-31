@@ -54,7 +54,7 @@ Public Class Game1
     End Sub
     Protected Overrides Sub Draw(ByVal gameTime As GameTime)
         Globals.Graphics.GraphicsDevice.SetRenderTarget(Globals.BackBuffer)
-        GraphicsDevice.Clear(Color.Black)
+        'GraphicsDevice.Clear(Color.Black)
         MyBase.Draw(gameTime)
         ScreenManager.Draw()
         Globals.Graphics.GraphicsDevice.SetRenderTarget(Nothing)

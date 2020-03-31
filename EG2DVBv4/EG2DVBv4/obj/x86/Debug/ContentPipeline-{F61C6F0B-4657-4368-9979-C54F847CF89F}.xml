@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
-      <Time>2018-01-28T22:21:53.2601021-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Arial_8.xnb</Output>
+      <Time>2019-11-22T14:48:43.3230118-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Georgia_16.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
-      <Time>2018-01-28T22:21:53.2606023-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Georgia_16.xnb</Output>
+      <Time>2019-11-22T14:48:43.3309729-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Motorwerk_16.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
-      <Time>2018-01-28T22:21:53.2606023-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Motorwerk_16.xnb</Output>
+      <Time>2019-11-22T14:48:43.3419287-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Symbol_16.spritefont</Source>
@@ -34,8 +34,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Symbol_16.xnb</Output>
-      <Time>2018-01-28T22:21:53.2611025-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\Fonts\Symbol_16.xnb</Output>
+      <Time>2019-11-22T14:48:43.3598825-08:00</Time>
     </Item>
     <Item>
       <Source>GFX\menuscreen.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
-      <Time>2018-01-28T22:21:53.2616033-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\menuscreen.xnb</Output>
+      <Time>2019-11-22T14:48:43.3648697-08:00</Time>
     </Item>
     <Item>
       <Source>GFX\PxFont.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
-      <Time>2018-01-28T22:21:53.2611025-08:00</Time>
+      <Output>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\GFX\PxFont.xnb</Output>
+      <Time>2019-11-22T14:48:43.3628758-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -62,10 +62,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
-      <LoggerRootDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\source_codes\2018\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Brandon\Documents\GitHub\EG2DVBv4.x\EG2DVBv4\EG2DVBv4\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -94,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2018-01-16T17:32:12.9074662-08:00</Value>
+        <Value>2019-06-05T11:54:32.8528583-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
