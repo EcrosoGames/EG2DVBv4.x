@@ -105,6 +105,7 @@
     </Compile>
     <Compile Include="Add On Stuff\DrawLive.vb" />
     <Compile Include="Add On Stuff\GameVersion.vb" />
+    <Compile Include="Add On Stuff\Maths.vb" />
     <Compile Include="Add On Stuff\RNG.vb" />
     <Compile Include="Add On Stuff\Vsync.vb" />
     <Compile Include="Blanks\Default Screen.vb" />
